@@ -36,4 +36,3 @@ path = "./comments.json"
 print("Writing json... ")
 with open(path, mode="w", encoding="utf-8") as json_file:
     json_file.write(json_string)
-
